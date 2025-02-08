@@ -1,0 +1,6 @@
+Q3.a: running the ERM algorithm with n<10 or n>10 may worse the idea than running it with n=10
+ 1) if the hypothesis class is too rich (n>10): we can have a large estimation error (and over-fitting)
+ 2) if the hypothesis class doesn't include a suitable function (n<10): we can have a large approximation error (under-fitting)
+given that we know that the rule include at most 10 characters, the best solution is choosing n<=10
+
+Q3.b:
